@@ -1,0 +1,306 @@
+
+.navbar{
+    position: static;
+}
+.bg-info{
+    letter-spacing: 2px;
+    margin: 0%;
+    padding: 30px;
+    
+}
+
+
+.navbar-nav li a:hover{
+    cursor: pointer;
+    background-color: rgb(22, 12, 82);
+    color: white !important;
+    box-shadow: 0 0 5px white, 0 0 10;
+} 
+
+
+
+
+
+
+
+.header1 {
+  background-image: url("https://cdn.ucberkeleybootcamp.com/wp-content/uploads/sites/106/2020/03/Web-Developer-Bootcamp-San-Francisco.jpeg");
+  color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+html {
+    height: 100%;
+}
+.container-fluid {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      
+  }
+.h3v {
+  color: blue;
+}
+.pimg {
+  width: 250px;
+  height: auto;
+}
+
+h1{
+    text-align: center;
+    padding:  30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    margin-top: 30px;
+    background-color: #eee
+}
+
+.container {
+    min-height: 100vh; 
+     padding: 20px 0; 
+     display: flex;
+     align-items: center;
+    justify-content: center;
+      
+    
+   
+    
+    
+
+}
+
+p {
+    margin: 0px
+}
+
+.card {
+    width: 280px;
+    height: 520px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+
+.card .backgroundEffect {
+    bottom: 0;
+    height: 0px;
+    width: 100%
+}
+
+.card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #1b9ce3;
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+.card .pic {
+    position: relative
+}
+
+.card .pic img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover
+}
+
+
+
+
+
+.card .text-muted {
+    font-size: 12px
+}
+
+.card:hover .text-muted {
+    color: #fff !important
+}
+
+.card .content {
+    padding: 0 20px;
+    
+    
+}
+
+.card .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #1b9ce3;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none
+}
+
+.card:hover .content .btn {
+    background: #fff;
+    color: #1b9ce3;
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.card .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px
+}
+
+
+
+.card .content .foot .icon {
+    font-size: 12px
+}
+
+
+
+
+  .margin-up {
+    margin-top: 2.5rem;
+  }
+
+ 
+
+  .contact-view {
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 30px;
+  }
+
+  .cont-top {
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-column-gap: 20px;
+
+  }
+
+  .wrapper {
+  
+    background: url(https://i.pinimg.com/originals/47/2c/4f/472c4f4387cb16e16f4ac86b716951ff.jpg) no-repeat center center fixed;
+   color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+  }
+
+ .cont-details{
+   
+     text-align: center;
+     background-color: rgb(184, 230, 191);
+     margin-left: 300px;
+     margin-right: 300px;
+     border-radius: 35px;
+      
+     
+     
+ }
+ .cont-top {
+     display: flex;
+  justify-content: center;
+
+ }
+ 
+   .cont-details span.fa {
+    font-size: 22px;
+    color: #4cb1ff;
+    margin: auto;
+    
+  }
+
+  .cont-details h6 {
+    font-size: 20px;
+    color: #051b35;
+    font-weight: 600;
+  }
+
+   .cont-details p,
+  .cont-details p a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    margin-top: 3px;
+  }
+ h3, h6 {
+   padding: 10px;
+ }
+  .cont-details p a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    color: #051b35;
+  }
+
+
+  .cont-details h6 a {
+    color: #051b35;
+  }
+.details {
+  background-color: rgb(79, 158, 96);
+  border-radius: 20px;
+}
+ 
+  @media(max-width: 992px) {
+
+    .cont-details p,
+    .cont-details p a {
+      font-size: 16px;
+    }
+
+    .cont-details h5 {
+      font-size: 32px;
+      line-height: 35px;
+    }
+  }
+
+  
